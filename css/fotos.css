@@ -1,0 +1,39 @@
+@import url(./style.css);
+
+main {
+    margin-top: 150px;
+
+    h1 {
+        text-align: center;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
+
+.gallery-container{
+    margin-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 2vw;
+    padding: 0 2vw;
+}
+.gallery-items{
+    width: 340px;
+    height: 340px;
+    border: 5px solid var(--cor-cinza-claro);
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.23);
+    transition: .5s;
+    margin-block: 10px;
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+.gallery-items:hover{
+    transform: scale(1.05);
+}
