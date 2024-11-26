@@ -48,27 +48,60 @@
     <!-- HEADER -->
     
     <main>
-
         <h1 class="container__title">Galeria de Fotos</h1>
-
+    
         <div class="gallery-container">
-            <a href="./assets/galeria/01.jpeg" class="gallery-items">
+            <!-- Adicione links e IDs para facilitar a navegação -->
+            <a href="#img1" class="gallery-items">
                 <img src="./assets/galeria/01.jpeg" alt="Foto SOU Blindagem">
             </a>
-            <a href="./assets/galeria/02.jpeg" class="gallery-items">
+            <a href="#img2" class="gallery-items">
                 <img src="./assets/galeria/02.jpeg" alt="Foto SOU Blindagem">
             </a>
-            <a href="./assets/galeria/03.jpeg" class="gallery-items">
+            <a href="#img3" class="gallery-items">
                 <img src="./assets/galeria/03.jpeg" alt="Foto SOU Blindagem">
             </a>
-            <a href="./assets/galeria/04.jpeg" class="gallery-items">
+            <a href="#img4" class="gallery-items">
                 <img src="./assets/galeria/04.jpeg" alt="Foto SOU Blindagem">
             </a>
-            <a href="./assets/galeria/05.jpeg" class="gallery-items">
+            <a href="#img5" class="gallery-items">
                 <img src="./assets/galeria/05.jpeg" alt="Foto SOU Blindagem">
             </a>
         </div>
+    
+        <!-- Modal para imagens -->
+        <div class="lightbox" id="img1">
+            <a href="#!" class="close">×</a>
+            <img src="./assets/galeria/01.jpeg" alt="Foto SOU Blindagem">
+            <a href="#img5" class="prev">←</a>
+            <a href="#img2" class="next">→</a>
+        </div>
+        <div class="lightbox" id="img2">
+            <a href="#!" class="close">×</a>
+            <img src="./assets/galeria/02.jpeg" alt="Foto SOU Blindagem">
+            <a href="#img1" class="prev">←</a>
+            <a href="#img3" class="next">→</a>
+        </div>
+        <div class="lightbox" id="img3">
+            <a href="#!" class="close">×</a>
+            <img src="./assets/galeria/03.jpeg" alt="Foto SOU Blindagem">
+            <a href="#img2" class="prev">←</a>
+            <a href="#img4" class="next">→</a>
+        </div>
+        <div class="lightbox" id="img4">
+            <a href="#!" class="close">×</a>
+            <img src="./assets/galeria/04.jpeg" alt="Foto SOU Blindagem">
+            <a href="#img3" class="prev">←</a>
+            <a href="#img5" class="next">→</a>
+        </div>
+        <div class="lightbox" id="img5">
+            <a href="#!" class="close">×</a>
+            <img src="./assets/galeria/05.jpeg" alt="Foto SOU Blindagem">
+            <a href="#img4" class="prev">←</a>
+            <a href="#img1" class="next">→</a>
+        </div>
     </main>
+    
 
     <div class="rodape" id="contato">
         <div class="rodape__infos">
